@@ -1,0 +1,131 @@
+:root {
+    --primary: #ffffff;
+    --secondary: #aeebfc;
+    --tertiary: #3a849b;
+    --light-dark: #589ffc;
+    --dark: #0a0d8f;
+    --border-radius: .3rem;
+    text-align: center;
+  
+   
+}
+#scores-div {
+    text-align: center;
+}
+#question-div {
+    text-align: center;
+}
+#choices {
+    text-align: center;
+}
+body {
+    text-align: center;
+}
+button {
+    
+    color: blue;
+    text-decoration-color: blue;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 6px 5px; 
+    width: 50%;
+    display: block;
+    margin: 5px 400px;
+    border-radius: var(--border-radius);
+    color: var(--primary);
+    border: none; 
+    outline: none; 
+    background-color: var(--light-dark);
+    box-shadow: 3px 3px var (--dark);
+    transform: translate(-1px, -1px);
+    text-align: center;
+  }
+   
+  .results {
+    display:block;
+    color: blue;
+    text-decoration-color: blue;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 6px 5px; 
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    border-radius: var(--border-radius);
+    color: var(--primary);
+    border: none; 
+    outline: none; 
+    background-color: var(--light-dark);
+    box-shadow: 3px 3px var (--dark);
+    transform: translate(-1px, -1px);
+  }
+  li {
+    list-style-type: none;
+  }
+
+  #view-scores {
+    text-align: center;
+    color: blue;
+    text-decoration-color: blue;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 6px 5px; 
+    width: 25%;
+    display: block;
+    margin: 5px 550px;
+    border-radius: var(--border-radius);
+    color: var(--primary);
+    border: none; 
+    outline: none; 
+    background-color: var(--light-dark);
+    box-shadow: 3px 3px var (--dark);
+    transform: translate(-1px, -1px);
+    
+  }
+
+  h1 {
+    text-align: center;
+    color: blue;
+  }
+
+  #timer {
+    color: blue;
+    text-decoration-color: blue;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 6px 5px; 
+    width: 25%;
+    display: block;
+    margin: 5px 550px;
+    border-radius: var(--border-radius);
+    color: var(--primary);
+    border: none; 
+    outline: none; 
+    background-color: var(--light-dark);
+    box-shadow: 3px 3px var (--dark);
+    transform: translate(-1px, -1px);
+    text-align: center;
+
+  }
+
+ 
+  #buttons {
+    color: blue;
+    text-decoration-color: blue;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 6px 5px; 
+    width: 25%;
+    display: block;
+    margin: 5px 550px;
+    border-radius: var(--border-radius);
+    color: var(--primary);
+    border: none; 
+    outline: none; 
+    background-color: var(--light-dark);
+    box-shadow: 3px 3px var (--dark);
+    transform: translate(-1px, -1px);
+    text-align: center;
+  }
+
+  
