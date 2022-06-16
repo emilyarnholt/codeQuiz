@@ -1,45 +1,45 @@
-// a variable for start time
+// start time
 let secondsLeft = 76;
 
-//the element that displays the time
+//displayed time
 let timer = document.getElementById("timer");
 
-//div for high scores
+//high scores
 let scoresDiv = document.getElementById("scores-div");
 
 let buttonsDiv = document.getElementById("buttons")
 
-//button for high scores
+// high scores button
 let viewScoresBtn = document.getElementById("view-scores")
 
-//start button div
+//start button 
 let startButton = document.getElementById("start-button");
 startButton.addEventListener("click", setTime);
 
 
-// variable for the questions title
+//  questions title
 var questionDiv = document.getElementById("question-div");
 
-// div to hold the results
+// results
 let results = document.getElementById("results");
 
-// div for the choices
+// choices
 var choices = document.getElementById("choices");
 
 
-// an array to store high scores
+// store high scores
 let emptyArray = [];
 
 // the array of high scores from local storage
 let storedArray = JSON.parse(window.localStorage.getItem("highScores"));
 
-// keeping track of which question we're on
+// keeping track of which question
 var questionCount = 0;
 
-//keeping score
+//score
 let score = 0
 
-//Timer starts when the user clicks startButton (see above).
+//Timer starts when the user clicks startButton 
 function setTime() {
   displayQuestions();
   let timerInterval = setInterval(function() {

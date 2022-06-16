@@ -12,15 +12,15 @@ var questions = [
     },
   
     {
-      title: "Properties in a JavaScript oject are often refferred to as what?",
-      multiChoice: ["dot walking", "key-value pairs", "nested properties", "undefined"],
-      answer: "key-value pairs"
+      title: "Arrays in Javascript can be used to store____.",
+      multiChoice: ["numbers and strings", "all of the above", "booleans", "other arrays"],
+      answer: "all of the above"
     },
   
     {
-      title: "Which array method inserts an element at the end of the array?",
-      multiChoice: [".pop()", ".push()", ".length", ".join()"],
-      answer: ".push()"
+      title: "Commonly used data types DO NOT include:",
+      multiChoice: ["strings", "alerts", "booleans", "numbers"],
+      answer: "alerts"
     },
   
     {
